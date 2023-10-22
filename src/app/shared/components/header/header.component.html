@@ -1,0 +1,7 @@
+<div class="header">
+  <div class="header__actions">
+    <div *ngFor="let item of navItems">
+      <a [routerLink]="[item.url]" class="header__actions__link">{{ item.text }}</a>
+    </div>
+  </div>
+</div>
