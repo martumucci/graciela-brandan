@@ -8,9 +8,9 @@ import { NavItem } from '../../interfaces/nav-item';
 })
 export class HeaderComponent {
   navItems: NavItem[] = [
-    { text: 'INICIO', url: '#' },
+    { text: 'INICIO', url: '' },
     { text: 'RECETAS', url: '#' },
     { text: 'MOMENTO', url: '#' },
-    { text: 'CONTACTO', url: '#' },
+    { text: 'CONTACTO', url: '/contact' },
   ];
 }
